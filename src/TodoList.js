@@ -58,6 +58,7 @@ class TodoList extends Component
     return(
       <div className="todoListMain">
         <div className="header">
+          <h2>Mark's To-do List</h2>
           <form onSubmit={this.addItem}>
             <input ref={(a) => this._inputElement = a}>
             </input>
